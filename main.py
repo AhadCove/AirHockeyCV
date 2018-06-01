@@ -2,6 +2,7 @@ import numpy as np
 import glob
 import cv2
 
+# Read an image in
 img = cv2.imread('./Images/BasicBoard.png')
 
 # We want to convert the colors to HSV to work with
